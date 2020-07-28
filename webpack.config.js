@@ -8,6 +8,7 @@ module.exports = {
     // 'webpack-dev-server/client?http://0.0.0.0:8080/',
     // 'webpack/hot/only-dev-server',
     path.resolve(__dirname, 'src/index.ts'),
+    path.resolve(__dirname, 'src/counter.ts'),
   ],
   mode: 'development',
   module: {
@@ -117,7 +118,6 @@ module.exports = {
     port: 3000,
     publicPath: '/hmr/',
     filename: 'app.js',
-    open: true,
     inline: true,
     hot: true,
     // hotOnly: true,

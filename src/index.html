@@ -8,6 +8,15 @@
   </head>
   <body>
     <div id="shadowHost">Helly</div>
+    <my-counter id="counter" count="10"></my-counter>
+    <br /><br />
+    <button onClick="update()">Update</button>
     <script src="http://127.0.0.1:3000/hmr/app.js"></script>
+    <script>
+      function update() {
+        let counter = document.querySelector('#counter');
+        counter.setAttribute('count', 20);
+      }
+    </script>
   </body>
 </html>

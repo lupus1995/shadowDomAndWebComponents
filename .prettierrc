@@ -1,6 +1,7 @@
 {
-    "jsxBracketSameLine": false,
-    "trailingComma": "all",
-    "singleQuote": true,
-    "eslintIntegration": true
+  "jsxBracketSameLine": false,
+  "trailingComma": "all",
+  "singleQuote": true,
+  "eslintIntegration": true,
+  "tabWidth": 2
 }

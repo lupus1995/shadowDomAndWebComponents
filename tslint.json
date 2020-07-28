@@ -1,0 +1,13 @@
+{
+  "extends": ["tslint-config-airbnb", "tslint-config-prettier"],
+  "rules": {
+    "trailing-comma": [true, { "multiline": "always", "singleline": "never" }],
+    "align": [true, "parameters"],
+    "variable-name": [true, "allow-pascal-case"],
+    "object-shorthand-properties-first": false,
+    "import-name": [false],
+    "object-literal-shorthand": false,
+    "no-boolean-literal-compare": false,
+    "ter-arrow-parens": [true, "always"]
+  }
+}

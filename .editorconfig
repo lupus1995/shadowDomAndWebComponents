@@ -1,0 +1,12 @@
+{
+    "endOfLine": {
+          "description": "Which end of line characters to apply.",
+          "default": "lf",
+          "oneOf": [
+            {
+              "enum": ["crlf"],
+              "description": "Carriage Return + Line Feed characters (\\r\\n), common on Windows"
+            },
+          ]
+        },
+}
